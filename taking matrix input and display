@@ -1,0 +1,45 @@
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int matrix[3][3];
+
+    
+    cout << "Enter elements of 3x3 matrix:\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << "Element at [" << i << "][" << j << "]: ";
+            cin >> matrix[i][j];
+        }
+    }
+
+
+    cout << "The  Matrix is:\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << matrix[i][j] << "\t" ;
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+
+//output
+Enter elements of 3x3 matrix:
+Element at [0][0]: 6
+Element at [0][1]: 7
+Element at [0][2]: 4
+Element at [1][0]: 3
+Element at [1][1]: 2
+Element at [1][2]: 1
+Element at [2][0]: 4
+Element at [2][1]: 5
+Element at [2][2]: 6
+The  Matrix is:
+6	7	4	
+3	2	1	
+4	5	6	
