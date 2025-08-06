@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "Enter the size of the square matrix (n x n): ";
+    cin >> n;
+
+    int matrix[n][n];
+
+   
+    cout << "Enter elements of the matrix:\n";
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n; j++) {
+            cin >> matrix[i][j];
+        }
+    }
+
+    int DiagonalSum = 0;
+
+   
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n; j++) {
+            if(i == j) {
+                DiagonalSum += matrix[i][j];
+            }
+        }
+    }
+
+ 
+    cout << "Main Diagonal Sum: " << DiagonalSum << endl;
+
+    return 0;
+}
+//output
+Enter the size of the square matrix (n x n): 2
+Enter elements of the matrix:
+7
+1
+2
+3
+Main Diagonal Sum: 10
