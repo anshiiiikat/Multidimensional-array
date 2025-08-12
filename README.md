@@ -17,34 +17,34 @@ A 3D array is a collection of elements arranged in three dimensions — rows, co
 
 # Algorithms
 Addition of 2 matrices
-Start.
+1.Start.
 
-Input number of rows and columns for Matrix 1 → r1, c1.
+2.Input number of rows and columns for Matrix 1 → r1, c1.
 
-Input number of rows and columns for Matrix 2 → r2, c2.
+3.Input number of rows and columns for Matrix 2 → r2, c2.
 
-Check if r1 != r2 or c1 != c2:
+4.Check if r1 != r2 or c1 != c2:
 
-If true → print “Invalid rows or columns.” and exit.
+5.If true → print “Invalid rows or columns.” and exit.
 
-Declare 2D arrays m1[r1][c1] and m2[r2][c2].
+6.Declare 2D arrays m1[r1][c1] and m2[r2][c2].
 
-Input elements of Matrix 1.
+7.Input elements of Matrix 1.
 
-Display Matrix 1.
+8.Display Matrix 1.
 
-Input elements of Matrix 2.
+9.Input elements of Matrix 2.
 
-Display Matrix 2.
+10.Display Matrix 2.
 
 corresponding elements of both matrices and print the result.
 
 End.
 
 # Multiplication of 2 matrices
-Start
+1.Start
 
-Input Dimensions
+2.Input Dimensions
 
 -Get the number of rows (r1) and columns (c1) for the first matrix (M1).
 
