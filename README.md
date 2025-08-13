@@ -81,50 +81,50 @@ Output Result-Display the elements of the final result matrix.
 End
 
 # Adding diagonal elements of a matrix
-Start
+1.Start
 
-Input number of rows r1 and columns c1.
+2.Input number of rows r1 and columns c1.
 
-Declare matrix m[r1][c1].
+3.Declare matrix m[r1][c1].
 
-Input all elements of the matrix.
+4.Input all elements of the matrix.
 
-Display the matrix.
+5.Display the matrix.
 
-Initialize sum = 0.
+6.Initialize sum = 0.
 
-For each row i from 0 to r1 - 1:
+7.For each row i from 0 to r1 - 1:
 
-Add the element at the main diagonal m[i][i] to sum.
+8.Add the element at the main diagonal m[i][i] to sum.
 
-Display the value of sum.
+9.Display the value of sum.
 
 End
 
 # Transpose of a matrix
-Start
+1.Start
 
-To input Dimensions prompt the user to enter the number of rows and columns.
+2.To input Dimensions prompt the user to enter the number of rows and columns.
 
-Store these values in variables rows and cols.
+3.Store these values in variables rows and cols.
 
-Declare Matrices->Create an original matrix, m1, with dimensions rows x cols. And create a transpose matrix, t1, with swapped dimensions cols x rows.
+4.Declare Matrices->Create an original matrix, m1, with dimensions rows x cols. And create a transpose matrix, t1, with swapped dimensions cols x rows.
 
-Prompt the user to enter the elements for the matrix.
+5.Prompt the user to enter the elements for the matrix.
 
-Using nested for loops, read each element and store it in the original matrix m1.
+6.Using nested for loops, read each element and store it in the original matrix m1.
 
-Display the Original Matrix and print the contents of m1 to the screen for verification.
+7.Display the Original Matrix and print the contents of m1 to the screen for verification.
 
-For computing the Transpose iterate through each element of the original matrix m1 using nested loops (row i, column j).
+8.For computing the Transpose iterate through each element of the original matrix m1 using nested loops (row i, column j).
 
-For each element m1[i][j], assign its value to the transposed position in the second matrix: t1[j][i] = m1[i][j].
+9.For each element m1[i][j], assign its value to the transposed position in the second matrix: t1[j][i] = m1[i][j].
 
-Display the Transpose Matrix
+10.Display the Transpose Matrix
 
-Print the contents of the newly computed transpose matrix t1.
+11.Print the contents of the newly computed transpose matrix t1.
 
-End
+12.End
 
-Conclusion:
+# Conclusion:
 This experiment heped in understanding matrix and its basic fuctions
